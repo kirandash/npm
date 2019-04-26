@@ -11,3 +11,10 @@ or
 npm install express
 Dev dependencies: Packages that we need only during development. Will not be included in production build.
 npm install babel-cli babel-preset-stage-0 babel-preset-es2015 --save-dev
+
+### 3. Installing a package globally
+npm install -g @angular/cli
+or 
+npm install -g react
+or
+npm install -g react-tools
