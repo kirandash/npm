@@ -62,3 +62,9 @@ package.json:
     "shortcut": "long command to execute"
 },
 then run npm shortcut
+
+### 11. npx
+npx -p @angular/cli ng new myapp
+Allows us to install a package temporarily.
+Temporarily installing a package angular cli e.g. to create a new application. Thus no need to pollute the global environment by installing the full fledged application with npm.
+npx -p packagename commandtorun
