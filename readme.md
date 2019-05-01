@@ -68,3 +68,7 @@ npx -p @angular/cli ng new myapp
 Allows us to install a package temporarily.
 Temporarily installing a package angular cli e.g. to create a new application. Thus no need to pollute the global environment by installing the full fledged application with npm.
 npx -p packagename commandtorun
+
+### 12. npm alternatives
+yarn by Facebook
+ni
