@@ -51,3 +51,6 @@ npm cache verify
 : will give us a report if there is any issue with npm cache. If there is any issue, we can force clean npm cache
 npm cache clean --force
 npm cache clean happens automatically. So if you must clean your cache, you need to pass force option.
+
+### 9. npm audit
+Gives a report on security issues or vulnerabilities
