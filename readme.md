@@ -46,3 +46,8 @@ Tilda: ~14.6.3 = ~14.6.x = Install latest patches only - Strictyl never goes to 
 Helps us do the same install everytime we pass our project to a different person while using ~ or ^
 e.g. ^14.6.3 - Latest Install without package.lock.json might install a new ^14.25.0 which might not be the same environment the main developer was using. So, package.lock.json makes sure that same version is installed as original. Thus saving us from code breakage. Since packages are interdependent.
 
+### 8. npm cache
+npm cache verify
+: will give us a report if there is any issue with npm cache. If there is any issue, we can force clean npm cache
+npm cache clean --force
+npm cache clean happens automatically. So if you must clean your cache, you need to pass force option.
