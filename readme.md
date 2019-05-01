@@ -31,3 +31,7 @@ By default wanted version will be installed. Which can be changed by
 npm install bootstrap@latest
 
 Note: If any issue comes related to admin permission etc, uninstall npm and install again to latest version.
+
+### 5. Uninstalling a package
+npm uninstall babel-preset-es2015
+npm install babel-preset-env --save-dev
