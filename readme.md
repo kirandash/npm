@@ -54,3 +54,11 @@ npm cache clean happens automatically. So if you must clean your cache, you need
 
 ### 9. npm audit
 Gives a report on security issues or vulnerabilities
+
+### 10. npm scripts
+https://docs.npmjs.com/misc/scripts
+package.json: 
+"scripts": {
+    "shortcut": "long command to execute"
+},
+then run npm shortcut
