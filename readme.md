@@ -36,8 +36,13 @@ Note: If any issue comes related to admin permission etc, uninstall npm and inst
 npm uninstall babel-preset-es2015
 npm install babel-preset-env --save-dev
 
-### 6. Package Number Syntax in package.json
+### 6. Package Number Syntax in package.json (Symantic versioning - npm)
 14.6.3 = Major release.Minor release.Patch release - Always install 14.6.3 exactly - no different version
 On npm install
 Caret: ^14.6.3 = ^14.x.x = Install All minor releases and patches only - Strictly Never goes to 15.0.0 - If available it will install 14.7.0 or 14.6.4 but never 15.0.0
 Tilda: ~14.6.3 = ~14.6.x = Install latest patches only - Strictyl never goes to 14.7 - If available it will install 14.6.4 but never 14.7
+
+### 7. Package.lock.json
+Helps us do the same install everytime we pass our project to a different person while using ~ or ^
+e.g. ^14.6.3 - Latest Install without package.lock.json might install a new ^14.25.0 which might not be the same environment the main developer was using. So, package.lock.json makes sure that same version is installed as original. Thus saving us from code breakage. Since packages are interdependent.
+
